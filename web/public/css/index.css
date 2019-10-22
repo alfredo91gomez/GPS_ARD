@@ -1,0 +1,35 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 21/10/2019, 11:44:10 AM
+    Author     : Desarrollo
+*/
+#map-canvas{
+	left:0px; right:0px;
+	height:100%;
+}
+.mapaMax{
+	float:left;
+	position:absolute;
+	top:2.5%; bottom:0px; left:0px; right:0px; margin-top: 3%;
+}
+
+#contenido{
+    width:100%;
+}
+#pop-estadistica {
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, rgba(28,65,69,1)), color-stop(100%, rgba(15,21,35,1)), color-stop(100%, rgba(15,21,35,1))); /* safari4+,chrome */
+    Color:#90FFFF;
+    padding:0px 0px 0px 0px;
+    z-index: 8; 
+    width: 540px; 
+    position:fixed;
+    top: 13%;
+    left:0.5%;
+    opacity: 0.8;
+    cursor:pointer;
+    border-radius:15px;
+}
